@@ -1,0 +1,7 @@
+var editor = $('#devise_avatarable_editor_<%= resource_name %>_<%= attribute %>');
+
+<% if resource.errors.any? %>
+  editor.find('.devise-avatarable-errors').html('<%= escape_javascript(resource.errors.full_messages.to_sentence)%>').show();
+<% else %>
+  editor.deviseAvatarableEditor('upload', "<%= resource.send(attribute).url(:editor_preview) %>");
+<% end %>

@@ -1,0 +1,14 @@
+<h2>Crop <%= resource_name.to_s.humanize %> <%= attribute.to_s.humanize %> </h2>
+
+<%= form_for resource, as: resource_name, url: avatar_path(resource_name), html: { method: :put, multipart: true } do |f| %>
+  <%= devise_error_messages! %>
+
+  <%=f.hidden_field "#{attribute}_cache" %>
+  <%=f.hidden_field "#{attribute}_crop" %>
+
+  <div class="devise-avatarable-select-crop" data-resource="<%= resource_name %>" data-attribute="<%= attribute%>" data-aspect-ratio="1" data-save-coords-to="#<%= resource_name %>_<%= attribute%>_crop">
+    <%= image_tag resource.send(attribute).url(:editor_preview) %>
+  </div>
+
+  <div><%= f.submit "Crop", data: { disable_with: "Cropping..." } %></div>
+<% end %>

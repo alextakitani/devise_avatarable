@@ -1,0 +1,19 @@
+<h2>Edit <%= resource_name.to_s.humanize %> <%= attribute.to_s.humanize %> </h2>
+
+<%= form_for resource, as: resource_name, url: avatar_path(resource_name), html: { method: :put, multipart: true } do |f| %>
+  <%= devise_error_messages! %>
+
+  <%=f.hidden_field "#{attribute}_cache" %>
+
+  <%= devise_avatar_for(resource, attribute, :editor_preview) if devise_avatar_present?(resource, attribute) %>
+
+  <div><%= f.label attribute %><br />
+  <%= f.file_field attribute %></div>
+
+  <div><%= f.label "remove_#{attribute}" %><br />
+  <%= f.check_box "remove_#{attribute}" %></div>
+
+  <div><%= f.submit "Update", data: { disable_with: "Updating..." } %></div>
+<% end %>
+
+<%= link_to "Back", :back %>

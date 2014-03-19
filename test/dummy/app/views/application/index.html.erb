@@ -1,0 +1,14 @@
+<h1>Hi!</h1>
+
+<% if current_user %>
+  <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= link_to "Login", new_user_session_path %>
+<% end %>
+
+<% if defined? edit_user_avatar_path %>
+  <%= link_to "Edit Avatar", edit_user_avatar_path %><br>
+  <%= link_to "Edit Avatar using the widget inside the registrations#edit form", edit_user_registration_path %>
+<% else %>
+  No avatar configured. Please check the README on how to setup a avatar.
+<% end %>

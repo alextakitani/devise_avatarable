@@ -1,0 +1,38 @@
+<%= content_tag :div, html_options do %>
+  <div class="devise-avatarable-errors alert alert-danger" data-server-error="<%= t('devise.avatars.errors.server_error') %>" style="display: none;"></div>
+
+  <%= f.hidden_field "#{attribute}_cache", class: 'devise-avatarable-crop-cache' %>
+  <%= f.hidden_field "#{attribute}_crop", class: 'devise-avatarable-crop' %>
+  <%= f.hidden_field "remove_#{attribute}", class: 'devise-avatarable-remove' %>
+
+  <div class="devise-avatarable-uploader">
+    <div class="img-thumbnail">
+      <%= devise_avatar_for resource, attribute, :editor_preview, class: 'devise-avatarable-thumbnail' %>
+      <div class="devise-avatarable-actions">
+        <span class="btn btn-primary btn-block btn-select-file">
+          <span><%= t('devise.avatars.editor.select_file') %></span>
+          <%# TODO: In Hive we use the twitter_bootstrap_form_for gem and this replaces
+            the default form builder with a custom form builder that will create form elements
+            with TWBS markup. We can't use this here because this would mess up our
+            editor markup. I just insert a plain HTML form element here until we come
+            up with a better solution :( %>
+          <%#= f.file_field attribute, class: 'devise-avatarable-file' %>
+          <input id="<%= resource_name %>_<%= attribute %>" name="<%= resource_name %>[<%= attribute %>]" type="file" class="devise-avatarable-file">
+        </span>
+
+        <%= button_tag t('devise.avatars.editor.remove', attribute: attribute.to_s.humanize), class: 'devise-avatarable-remove-btn btn btn-danger btn-xs btn-block', data: { file_present: resource.send(attribute).present?, disable_with: t('devise.avatars.editor.removing') } %>
+      </div>
+    </div>
+  </div>
+
+  <div class="devise-avatarable-cropper" style="display: none;">
+    <div class="img-thumbnail">
+      <div class="devise-avatarable-cropbox">
+        <%= image_tag resource.send(attribute).url(:editor_preview) %>
+      </div>
+      <div class="devise-avatarable-actions">
+        <%= f.submit t('devise.avatars.editor.crop'), class: 'devise-avatarable-crop-btn btn btn-primary btn-block', data: { disable_with: t('devise.avatars.editor.cropping') } %>
+      </div>
+    </div>
+  </div>
+<% end %>
