@@ -54,6 +54,7 @@ module DeviseAvatarable
           else
             generate_generic_image size, (self.options[:color] || 'grey'), file_path(version)
           end
+          puts "Created #{self.attribute}:#{version} in #{file_path(version)}."
         end
       end
 
