@@ -221,6 +221,17 @@ You can omit any of these options which falls back to the default settings then:
   * <tt>versions</tt> - { default: [200, 200] }
 
 
+### Use your own uploader
+
+DeviseAvatarable uses [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
+to upload and process avatars. CarrierWave uses a uploader class to controll things like
+storage paths, allowed file extensions, default urls and other. DeviseAvatarable
+will create such a class on the fly when it is needed or you can create one in your host
+application to modify behavior by overwriting methods. For example if the model
+is called *User* and the avatar attribute *avatar* the name of your uploader class
+must be *UserAvatarUploader*. Put this in <tt>app/models/user_avatar_uploader.rb</tt>.
+
+
 ### Configur avatar storgae
 
 By default, all uploads are stored under <tt>public/uploads</tt> in your application directory.

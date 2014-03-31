@@ -4,6 +4,40 @@ module DeviseAvatarable
   class Uploader < CarrierWave::Uploader::Base
     include CarrierWave::RMagick
 
+    # Returns the uploader class for the given model name and avatar.
+    # If a uploader class exists in the host application it is extended with the
+    # processing options for the configured versions and returned.
+    # For example if the model is called +User+ and the avatar +avatar+ the name
+    # of your uploader class must be +UserAvatarUploader+.
+    # If no avatar uploader exists in the host application a anonymouse uploader
+    # class is created and returned.
+    # I'm not sure if this anonymous class is the best way of doing it but
+    # because carrierwave methods like +version+ or +process+ work on the
+    # singleton class I found no other way of creating different versions
+    # for different instances of the uploader class.
+    def self.get_uploader(class_name, avatar_name, options)
+      name = "#{class_name.to_s.classify}#{avatar_name.to_s.classify}Uploader"
+
+      uploader = name.safe_constantize || Class.new(self)
+
+      uploader.class_eval do
+        process convert: options[:convert_to] unless options[:convert_to].is_a? FalseClass
+        process resize_to_limit: options[:limit_to] unless options[:limit_to].is_a? FalseClass
+
+        options[:versions].each do |name, args|
+          opts = args.extract_options!
+          method = opts[:process] || :resize_to_fill
+
+          version name do
+            process :crop
+            process method => args
+          end
+        end
+      end
+
+      uploader
+    end
+
     # Load our carrierwave configuration. This way we can keep it
     # in the engine and won't mess up global carrierwave configuration.
     def initialize(*)
