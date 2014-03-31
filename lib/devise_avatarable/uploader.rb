@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 module DeviseAvatarable
-  class BaseUploader < CarrierWave::Uploader::Base
+  class Uploader < CarrierWave::Uploader::Base
     include CarrierWave::RMagick
 
     # Load our carrierwave configuration. This way we can keep it
@@ -20,7 +20,6 @@ module DeviseAvatarable
 
       @storage = self.storage_engines[store].constantize.new(self)
     end
-
 
     # Image processing methods and versions are added dynamically
     # in *model.rb* from the avatar configuration.

@@ -45,7 +45,7 @@ module DeviseAvatarable
       def generate
         versions = Devise.avatar_versions[self.attribute][:versions]
 
-        # Need to add the "editor_preview" version from BaseUploader too.
+        # Need to add the "editor_preview" version from Uploader too.
         versions[:editor_preview] = [uploader.editor_size, uploader.editor_size]
 
         versions.each do |version, size|

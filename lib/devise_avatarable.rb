@@ -8,7 +8,7 @@ require 'devise_avatarable/devise'
 
 module DeviseAvatarable
   autoload :AvatarDefaults, 'devise_avatarable/avatar_defaults'
-  autoload :BaseUploader, 'devise_avatarable/base_uploader'
+  autoload :Uploader, 'devise_avatarable/uploader'
   autoload :Helpers, 'devise_avatarable/helpers'
   autoload :FormHelpers, 'devise_avatarable/form_helpers'
   autoload :UrlHelpers, 'devise_avatarable/url_helpers'

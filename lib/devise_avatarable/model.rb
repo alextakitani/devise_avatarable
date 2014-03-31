@@ -11,7 +11,7 @@ module Devise
         # singleton class I found no other way of creating different versions
         # for different instances of the uploader class.
         Devise.avatar_versions.each do |attribute,options|
-          mount_uploader attribute, Class.new(DeviseAvatarable::BaseUploader) {
+          mount_uploader attribute, Class.new(DeviseAvatarable::Uploader) {
             process convert: options[:convert_to] unless options[:convert_to].is_a? FalseClass
             process resize_to_limit: options[:limit_to] unless options[:limit_to].is_a? FalseClass
 
