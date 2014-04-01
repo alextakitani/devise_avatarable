@@ -2,7 +2,6 @@
 // https://github.com/zweitag/glow
 
 $(document).bind('glow:flash', function(evt, flash) {
-  console.log("avatarable");
   var type = flash.type;
   if(type == 'error') type = 'danger';
   if(type == 'notice') type = 'info';

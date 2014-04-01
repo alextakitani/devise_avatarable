@@ -104,6 +104,17 @@ Now open <tt>app/views/devise/registrations/edit.html.erb</tt> and add the
 This will render a fancy avatar editor that lets your users upload and crop the
 avatar right there without leaving the page.
 
+#### Custom Events
+
+The widget will send a custom event when the avatar was uploaded and cropped
+successfully. You can attach to this event to for example change the current
+user avatar image on the page like this:
+
+```javascript
+$('#devise_avatarable_editor_user_avatar').on('update', function(e) {
+  $('.current-user-avatar img').attr('src', e.imgUrl);
+});
+```
 
 #### Flash messages
 
@@ -256,7 +267,19 @@ config.avatar_storage = {
 
 Put in your access key and secret and change the bucket name and you are ready to go.
 
-Other storage provider examples:
+You can optionally include your CDN host name in the configuration. This is highly
+recommended, as without it every request requires a lookup of this information.
+
+```ruby
+config.asset_host = "http://mybucket.s3-external-3.amazonaws.com"
+```
+
+If you don't know this information, just leave it out, upload something and check
+the generated URL. You can also also configure this
+[dynamically](https://github.com/carrierwaveuploader/carrierwave#dynamic-asset-host).
+
+
+#### Other storage provider examples:
 
 ```ruby
   # Rackspace
@@ -338,10 +361,6 @@ Add or change translations by adding or overwriting these files in your app.
   another file nothing happens when you click upload for the second time.
 * uploading photos in landscape format is messing up the widget layout.
 * make uploads work on Heroku https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Make-Carrierwave-work-on-Heroku
-* add a way to attach to events of the editor to for example a avatar image
-  anywher on the page after the avatar was changed in the editor.
-  We had this in update.js.erb but it needs to be in the host app i guess...
-  $('.current-<%= resource_name %>-<%= attribute %> img').attr('src', "<%= resource.send(attribute).url(:small) %>");
 * the avatar editor widget form helper partial uses Twitter Bootstrap for the layout. Maybe we should
   also add a default layout if people want to use this without Bootstrap
 * add to README: how to remove avatars?
