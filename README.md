@@ -128,17 +128,25 @@ it would look like this:
 <p class="alert alert-js"><%= alert %></p>
 ```
 
-This works by adding the flash message to a special header in the server response
-and by binding to the Javascript event <tt>glow:flash</tt> in the client and showing
-the flash message on the website. If you want to do your own stuff with the flash
-message you can unbind from that event and bind it again:
+This container is then displayed by binding to the *update* event of the
+avatar editor like this:
 
 ```javascript
-$(document).unbind('glow:flash').bind('glow:flash', function(evt, flash) {
-  alert(flash.type, flash.message)
+$(document).bind('update', '.devise-avatarable-editor', function(event) {
+  alert = $($('.alert-js')[0]).clone();
+  alert.text(event.message);
+  alert.addClass('alert-info');
+  alert.insertAfter($($('.alert-js')[0])).fadeIn().delay(3000).fadeOut(function() { $(this).remove(); });
 });
 ```
-We use the [Glow Gem](https://github.com/zweitag/glow) for that.
+If you want to do your own stuff when the avatar is updated you can unbind
+from that event and bind it again:
+
+```javascript
+$(document).unbind('update', '.devise-avatarable-editor').bind('update', '.devise-avatarable-editor', function(event) {
+  alert(event.message)
+});
+```
 
 
 ## Display avatars
@@ -349,16 +357,14 @@ Add or change translations by adding or overwriting these files in your app.
 
 ## TODOs
 * Add test!
+* add a file size limit
 * this is not tested to work for multiple Devise models.
 * right now users can change their avatars without requiring the current password.
   this is different from devise where in the default installation you are required
   give your current password to change stuff.
 * when uploading a new file it would be cool there would be a cancel button in the crop dialog
   that would just cancel the new image upload/crop and keep the old image.
-* Glow also seemed a little huge for what it does. Maybe we can update https://github.com/ungue/xhr_flash
 * When the uploaded image is smaller than the *editor_size* the crop region will be off
-* if there was a error when uploading a file through the widget and you try to select
-  another file nothing happens when you click upload for the second time.
 * uploading photos in landscape format is messing up the widget layout.
 * make uploads work on Heroku https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Make-Carrierwave-work-on-Heroku
 * the avatar editor widget form helper partial uses Twitter Bootstrap for the layout. Maybe we should

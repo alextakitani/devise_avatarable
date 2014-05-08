@@ -1,7 +1,6 @@
 class Devise::AvatarsController < DeviseController
   respond_to :html, :js
   prepend_before_filter :authenticate_scope!
-  helper_method :attribute
 
   # GET /resource/avatars/edit
   def edit
@@ -10,15 +9,14 @@ class Devise::AvatarsController < DeviseController
   # PUT /resource/avatars
   def update
     if resource.update_attributes(attribute_params)
+      # Reset the flag that is used to remove the current avatar or when we would
+      # render a form this would tick the checkbox "remove avatar" again.
       resource.send("remove_#{attribute}=", nil)
 
-      if params[resource_name][attribute].present?
+      if attribute_params[attribute].present?
         render :crop
       else
-        # We don't check for <tt>is_navigational_format?</tt> here when setting
-        # the flash message because we use the Glow gem to show flash messages
-        # from xhr requests.
-        set_flash_message :notice, :updated
+        set_flash_message :notice, :updated if is_flashing_format?
         respond_with resource, location: after_update_path_for(resource)
       end
     else
@@ -48,11 +46,18 @@ class Devise::AvatarsController < DeviseController
     def attribute
       params[:attribute].present? ? params[:attribute].to_sym : :avatar
     end
+    helper_method :attribute
 
     # Permit the params for the avatar. For example if the avatar is named "avatar"
     # this would be: :avatar, :avatar_crop, :remove_avatar and :avatar_cache
     def attribute_params
       params.require(resource_name).permit(attribute, "#{attribute}_crop".to_sym, "remove_#{attribute}".to_sym, "#{attribute}_cache".to_sym)
     end
+
+    # Returns true if the current avatar is to be deleted.
+    def remove?
+      attribute_params["remove_#{attribute}"].to_bool
+    end
+    helper_method :remove?
 end
 

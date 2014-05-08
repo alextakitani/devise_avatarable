@@ -1,14 +1,9 @@
-// Display the flash messages from xhr responses.
-// https://github.com/zweitag/glow
+// Bind to the update event form the avatar editor to display a flash
+// message when the vatar was updated.
 
-$(document).bind('glow:flash', function(evt, flash) {
-  var type = flash.type;
-  if(type == 'error') type = 'danger';
-  if(type == 'notice') type = 'info';
-
+$(document).bind('update', '.devise-avatarable-editor', function(event) {
   alert = $($('.alert-js')[0]).clone();
-  alert.hide();
-  alert.text(flash.message);
-  alert.addClass('alert-' + type);
-  alert.insertAfter($('.alert-js')).fadeIn().delay(3000).fadeOut(function() { $(this).remove(); });
+  alert.text(event.message);
+  alert.addClass('alert-info');
+  alert.insertAfter($($('.alert-js')[0])).fadeIn().delay(3000).fadeOut(function() { $(this).remove(); });
 });

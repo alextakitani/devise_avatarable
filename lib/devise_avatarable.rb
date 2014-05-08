@@ -1,7 +1,6 @@
 require 'devise'
 require 'remotipart'
 require 'jcrop/rails/v2'
-require 'glow'
 require 'carrierwave'
 require 'devise_avatarable/routes'
 require 'devise_avatarable/devise'

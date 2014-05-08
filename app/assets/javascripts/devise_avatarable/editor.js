@@ -43,20 +43,20 @@ window.DeviseAvatarable || (window.DeviseAvatarable = {});
 
     // The editor has two modes *upload* to upload a file and *crop* to select
     // a crop from the uploaded file.
-    upload: function(image) {
+    upload: function(image, removed) {
       var that = this;
 
-      // Hide the cropper and show the uploader. If a *image* is given
-      // we have just created the crop and we display it to the user.
+      // Hide the cropper and show the uploader. If *image* is present we use it
+      // as sourcefor the editor thumbnail.
       this.element.find('.devise-avatarable-cropper').hide();
       this.element.find('.devise-avatarable-uploader').show();
       if(image) this.element.find('.devise-avatarable-thumbnail').attr('src', image);
 
-      // Show or hide the remove avatar button if intitially a file is present
-      // or if we have just created a crop.
+      // Show the remove avatar button if a avatar file is initally present
+      // and the avatar was not just removed.
       var remove = this.element.find('.devise-avatarable-remove-btn');
       remove.hide();
-      if(remove.data('file-present') || image) remove.show();
+      if(removed === false || (removed === undefined && remove.data('file-present'))) remove.show();
 
       // After a file was selected...
       this.element.find('.devise-avatarable-file').off('change.deviseAvatarableEditor').on('change.deviseAvatarableEditor', function() {

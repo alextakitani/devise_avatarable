@@ -1,7 +1,10 @@
 var editor = $('#devise_avatarable_editor_<%= resource_name %>_<%= attribute %>');
+var error_container = editor.find('.devise-avatarable-errors');
+error_container.hide();
 
 <% if resource.errors.any? %>
-  editor.find('.devise-avatarable-errors').html('<%= escape_javascript(resource.errors.full_messages.to_sentence)%>').show();
+  error_container.html('<%= escape_javascript(resource.errors[attribute].to_sentence)%>').show();
+  editor.deviseAvatarableEditor('upload');
 <% else %>
   editor.deviseAvatarableEditor('crop', "<%= resource.send(attribute).url(:editor_preview) %>");
 <% end %>

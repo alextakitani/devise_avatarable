@@ -2,6 +2,7 @@ en:
   devise:
     avatars:
       updated: "You updated your avatar successfully."
+      removed: "Your avatar was removed successfully."
       editor:
         select_file: "Select file..."
         remove: "Remove %{attribute}"

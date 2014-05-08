@@ -1,7 +1,6 @@
 //= require jquery.plugin
 //= require jquery.remotipart
 //= require jquery.Jcrop
-//= require glow
 //= require_tree .
 
 $(function() {
