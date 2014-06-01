@@ -1,14 +1,14 @@
 es:
   devise:
     avatars:
-      updated: ~
-      removed: ~
+      updated: "You updated your avatar successfully."
+      removed: "Your avatar was removed successfully."
       editor:
-        select_file: ~
-        uploading: ~
-        remove: ~
-        removing: ~
-        crop: ~
-        cropping: ~
+        select_file: "Select file..."
+        uploading: Uploading...
+        remove: "Remove %{attribute}"
+        removing: Removing...
+        crop: Crop
+        cropping: Cropping...
       errors:
-        server_error: ~
+        server_error: "Server is having hiccups. Please try again later."
