@@ -1,0 +1,14 @@
+de:
+  devise:
+    avatars:
+      updated: "Dein Avatar wurde erfolgreich geändert."
+      removed: "Dein Avatar wurde entfernt."
+      editor:
+        select_file: "Datei auswählen..."
+        uploading: Hochladen...
+        remove: "%{attribute} löschen"
+        removing: Lösche...
+        crop: Zuschneiden
+        cropping: "Schneide zu..."
+      errors:
+        server_error: "Serverfehler, bitte versuche es später noch einmal."

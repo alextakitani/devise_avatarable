@@ -9,7 +9,7 @@
     <div class="img-thumbnail">
       <%= devise_avatar_for resource, attribute, :editor_preview, class: 'devise-avatarable-thumbnail' %>
       <div class="devise-avatarable-actions">
-        <span class="btn btn-primary btn-block btn-select-file">
+        <span class="btn btn-primary btn-block btn-select-file" data-disable-with="<%= t('devise.avatars.editor.uploading', default: 'Uploading...') %>">
           <span><%= t('devise.avatars.editor.select_file') %></span>
           <%# TODO: In Hive we use the twitter_bootstrap_form_for gem and this replaces
             the default form builder with a custom form builder that will create form elements

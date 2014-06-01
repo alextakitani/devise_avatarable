@@ -41,10 +41,31 @@ window.DeviseAvatarable || (window.DeviseAvatarable = {});
       url: '/users/avatars'
     },
 
+    _uploadBtn: function() {
+      return this.element.find('.btn-select-file');
+    },
+
+    _disableUploadBtn: function() {
+      var btn = this._uploadBtn();
+      btn.addClass('disabled');
+      btn.data('label', btn.find('span').html());
+      btn.find('span').html(btn.data('disable-with'));
+    },
+
+    _enableUploadBtn: function() {
+      var btn = this._uploadBtn();
+      btn.removeClass('disabled');
+      if (btn.data('label')) {
+        btn.find('span').html(btn.data('label'));
+      }
+    },
+
     // The editor has two modes *upload* to upload a file and *crop* to select
     // a crop from the uploaded file.
     upload: function(image, removed) {
       var that = this;
+
+      this._enableUploadBtn();
 
       // Hide the cropper and show the uploader. If *image* is present we use it
       // as sourcefor the editor thumbnail.
@@ -60,6 +81,8 @@ window.DeviseAvatarable || (window.DeviseAvatarable = {});
 
       // After a file was selected...
       this.element.find('.devise-avatarable-file').off('change.deviseAvatarableEditor').on('change.deviseAvatarableEditor', function() {
+        that._disableUploadBtn();
+        that.element.find('.devise-avatarable-remove-btn').hide();
         that._uploadFile();
       });
 

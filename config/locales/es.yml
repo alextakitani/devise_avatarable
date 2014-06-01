@@ -1,0 +1,14 @@
+es:
+  devise:
+    avatars:
+      updated: ~
+      removed: ~
+      editor:
+        select_file: ~
+        uploading: ~
+        remove: ~
+        removing: ~
+        crop: ~
+        cropping: ~
+      errors:
+        server_error: ~

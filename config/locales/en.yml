@@ -5,9 +5,10 @@ en:
       removed: "Your avatar was removed successfully."
       editor:
         select_file: "Select file..."
+        uploading: Uploading...
         remove: "Remove %{attribute}"
-        removing: "Removing..."
-        crop: "Crop"
-        cropping: "Cropping..."
+        removing: Removing...
+        crop: Crop
+        cropping: Cropping...
       errors:
         server_error: "Server is having hiccups. Please try again later."
