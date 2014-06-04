@@ -7,8 +7,8 @@ de:
         select_file: "Datei auswählen..."
         uploading: Hochladen...
         remove: "%{attribute} löschen"
-        removing: Lösche...
+        removing: "Wird gelöscht..."
         crop: Zuschneiden
-        cropping: "Schneide zu..."
+        cropping: "Wird zugeschnitten..."
       errors:
         server_error: "Serverfehler, bitte versuche es später noch einmal."
