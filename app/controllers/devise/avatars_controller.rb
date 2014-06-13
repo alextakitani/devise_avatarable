@@ -56,7 +56,7 @@ class Devise::AvatarsController < DeviseController
 
     # Returns true if the current avatar is to be deleted.
     def remove?
-      attribute_params["remove_#{attribute}"].to_bool
+      attribute_params["remove_#{attribute}"].present? && attribute_params["remove_#{attribute}"] == '1'
     end
     helper_method :remove?
 end
