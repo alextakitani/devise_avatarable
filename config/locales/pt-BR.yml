@@ -1,0 +1,12 @@
+    avatars:
+      updated: "Seu avatar foi atualizado com sucesso."
+      removed: "Seu avatar foi removido com sucesso."
+      editor:
+        select_file: "Selecione o arquivo..."
+        uploading: Uploading...
+        remove: "Remover %{attribute}"
+        removing: Removendo...
+        crop: Recortar
+        cropping: Recortando...
+      errors:
+        server_error: "Problemas no servidor."
