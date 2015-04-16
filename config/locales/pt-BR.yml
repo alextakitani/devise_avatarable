@@ -1,3 +1,5 @@
+en:
+  devise:
     avatars:
       updated: "Seu avatar foi atualizado com sucesso."
       removed: "Seu avatar foi removido com sucesso."
