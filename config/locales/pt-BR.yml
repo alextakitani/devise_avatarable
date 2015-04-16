@@ -1,6 +1,9 @@
 pt-BR:
   devise:
     avatars:
+      user:
+        updated: "Seu avatar foi atualizado com sucesso."
+        removed: "Seu avatar foi removido com sucesso."  
       updated: "Seu avatar foi atualizado com sucesso."
       removed: "Seu avatar foi removido com sucesso."
       editor:
