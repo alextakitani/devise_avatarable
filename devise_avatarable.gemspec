@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "sass-rails" # , "~> 4.0"
   s.add_dependency "carrierwave", "~> 0.9"
   s.add_dependency "fog", "~> 1.20"
-  s.add_dependency "rmagick", "~> 2.13"
+  s.add_dependency "RMagick", "~> 2.13.2"
   s.add_dependency "remotipart", "~> 1.2"
   s.add_dependency "jcrop-rails-v2", "~> 0.9"
 
