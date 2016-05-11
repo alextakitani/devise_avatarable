@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0"
-  s.add_dependency "devise", "~> 3.0"
+  s.add_dependency "devise", "~> 4.0"
   s.add_dependency "sass-rails" # , "~> 4.0"
   s.add_dependency "carrierwave", "~> 0.9"
   s.add_dependency "fog", "~> 1.20"

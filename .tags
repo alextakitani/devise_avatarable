@@ -1,0 +1,313 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+en	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^en:$/;"	function	line:1
+devise	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^  devise:$/;"	function	line:2
+avatars	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^    avatars:$/;"	function	line:3
+updated	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^      updated: "You updated your avatar successfully."$/;"	function	line:4
+removed	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^      removed: "Your avatar was removed successfully."$/;"	function	line:5
+editor	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^      editor:$/;"	function	line:6
+select_file	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        select_file: "Select file..."$/;"	function	line:7
+uploading	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        uploading: Uploading...$/;"	function	line:8
+remove	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        remove: "Remove %{attribute}"$/;"	function	line:9
+removing	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        removing: Removing...$/;"	function	line:10
+crop	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        crop: Crop$/;"	function	line:11
+cropping	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        cropping: Cropping...$/;"	function	line:12
+errors	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^      errors:$/;"	function	line:13
+server_error	/home/alex/Pessoais/devise_avatarable/config/locales/en.yml	/^        server_error: "Server is having hiccups. Please try again later."$/;"	function	line:14
+es	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^es:$/;"	function	line:1
+devise	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^  devise:$/;"	function	line:2
+avatars	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^    avatars:$/;"	function	line:3
+updated	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^      updated: "Se ha cambiado tu avatar con éxito."$/;"	function	line:4
+removed	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^      removed: "Se ha eliminado tu avatar."$/;"	function	line:5
+editor	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^      editor:$/;"	function	line:6
+select_file	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        select_file: "Seleccionar archivo..."$/;"	function	line:7
+uploading	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        uploading: Subiendo...$/;"	function	line:8
+remove	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        remove: "Eliminar %{attribute}"$/;"	function	line:9
+removing	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        removing: Eliminando...$/;"	function	line:10
+crop	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        crop: Recortar$/;"	function	line:11
+cropping	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        cropping: Recortando...$/;"	function	line:12
+errors	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^      errors:$/;"	function	line:13
+server_error	/home/alex/Pessoais/devise_avatarable/config/locales/es.yml	/^        server_error: "Error del servidor. Por favor, inténtalo de nuevo más tarde."$/;"	function	line:14
+de	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^de:$/;"	function	line:1
+devise	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^  devise:$/;"	function	line:2
+avatars	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^    avatars:$/;"	function	line:3
+updated	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^      updated: "Dein Avatar wurde erfolgreich geändert."$/;"	function	line:4
+removed	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^      removed: "Dein Avatar wurde entfernt."$/;"	function	line:5
+editor	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^      editor:$/;"	function	line:6
+select_file	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        select_file: "Datei auswählen..."$/;"	function	line:7
+uploading	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        uploading: Hochladen...$/;"	function	line:8
+remove	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        remove: "%{attribute} löschen"$/;"	function	line:9
+removing	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        removing: "Wird gelöscht..."$/;"	function	line:10
+crop	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        crop: Zuschneiden$/;"	function	line:11
+cropping	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        cropping: "Wird zugeschnitten..."$/;"	function	line:12
+errors	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^      errors:$/;"	function	line:13
+server_error	/home/alex/Pessoais/devise_avatarable/config/locales/de.yml	/^        server_error: "Serverfehler, bitte versuche es später noch einmal."$/;"	function	line:14
+devise	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^  devise:$/;"	function	line:2
+avatars	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^    avatars:$/;"	function	line:3
+user	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^      user:$/;"	function	line:4
+updated	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        updated: "Seu avatar foi atualizado com sucesso."$/;"	function	line:5
+removed	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        removed: "Seu avatar foi removido com sucesso."  $/;"	function	line:6
+updated	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^      updated: "Seu avatar foi atualizado com sucesso."$/;"	function	line:7
+removed	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^      removed: "Seu avatar foi removido com sucesso."$/;"	function	line:8
+editor	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^      editor:$/;"	function	line:9
+select_file	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        select_file: "Selecione o arquivo..."$/;"	function	line:10
+uploading	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        uploading: Uploading...$/;"	function	line:11
+remove	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        remove: "Remover %{attribute}"$/;"	function	line:12
+removing	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        removing: Removendo...$/;"	function	line:13
+crop	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        crop: Recortar$/;"	function	line:14
+cropping	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        cropping: Recortando...$/;"	function	line:15
+errors	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^      errors:$/;"	function	line:16
+server_error	/home/alex/Pessoais/devise_avatarable/config/locales/pt-BR.yml	/^        server_error: "Problemas no servidor."$/;"	function	line:17
+plugin	/home/alex/Pessoais/devise_avatarable/lib/assets/javascripts/jquery.plugin.js	/^  $.plugin = function(name, object) {$/;"	function	line:16
+$.fn	/home/alex/Pessoais/devise_avatarable/lib/assets/javascripts/jquery.plugin.js	/^  $.plugin = function(name, object) {$/;"	function	line:16
+plugin	/home/alex/Pessoais/devise_avatarable/lib/assets/javascripts/jquery.plugin.js	/^;(function($, window, document, undefined) {$/;"	function	line:1
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/url_helpers.rb	/^module DeviseAvatarable$/;"	module	line:1
+UrlHelpers	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/url_helpers.rb	/^  module UrlHelpers$/;"	module	line:5	class:DeviseAvatarable
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^module DeviseAvatarable$/;"	module	line:1
+DefaultImageGenerator	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^  class DefaultImageGenerator$/;"	class	line:2	class:DeviseAvatarable
+initialize	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^    def initialize(*args)$/;"	method	line:7	class:DeviseAvatarable.DefaultImageGenerator
+generate	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^    def self.generate(*args)$/;"	singleton method	line:28	class:DeviseAvatarable.DefaultImageGenerator
+generate	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def generate$/;"	method	line:45	class:DeviseAvatarable.DefaultImageGenerator
+generate_generic_image	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def generate_generic_image(size, color, save_to)$/;"	method	line:63	class:DeviseAvatarable.DefaultImageGenerator
+generate_from_file	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def generate_from_file(file, size, save_to)$/;"	method	line:72	class:DeviseAvatarable.DefaultImageGenerator
+file_path	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def file_path(version)$/;"	method	line:85	class:DeviseAvatarable.DefaultImageGenerator
+file_name	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def file_name(version)$/;"	method	line:93	class:DeviseAvatarable.DefaultImageGenerator
+uploader	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/default_image_generator.rb	/^      def uploader$/;"	method	line:98	class:DeviseAvatarable.DefaultImageGenerator
+Devise	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/model.rb	/^module Devise$/;"	module	line:1
+Models	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/model.rb	/^  module Models$/;"	module	line:2	class:Devise
+Avatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/model.rb	/^    module Avatarable$/;"	module	line:3	class:Devise.Models
+crop_avatars	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/model.rb	/^        def crop_avatars$/;"	method	line:20	class:Devise.Models.Avatarable
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/version.rb	/^module DeviseAvatarable$/;"	module	line:1
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^module DeviseAvatarable$/;"	module	line:3
+Uploader	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^  class Uploader < CarrierWave::Uploader::Base$/;"	class	line:4	class:DeviseAvatarable
+get_uploader	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def self.get_uploader(class_name, avatar_name, options)$/;"	singleton method	line:18	class:DeviseAvatarable.Uploader
+initialize	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def initialize(*)$/;"	method	line:43	class:DeviseAvatarable.Uploader
+store_dir	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def store_dir$/;"	method	line:70	class:DeviseAvatarable.Uploader
+default_url	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def default_url$/;"	method	line:76	class:DeviseAvatarable.Uploader
+default_name	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def default_name(version)$/;"	method	line:81	class:DeviseAvatarable.Uploader
+extension_white_list	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def extension_white_list$/;"	method	line:87	class:DeviseAvatarable.Uploader
+filename	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def filename$/;"	method	line:97	class:DeviseAvatarable.Uploader
+recreate_versions!	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def recreate_versions!$/;"	method	line:115	class:DeviseAvatarable.Uploader
+editor_size	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^    def editor_size$/;"	method	line:125	class:DeviseAvatarable.Uploader
+timestamp	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^      def timestamp$/;"	method	line:130	class:DeviseAvatarable.Uploader
+editor_preview	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^      def editor_preview$/;"	method	line:136	class:DeviseAvatarable.Uploader
+crop	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/uploader.rb	/^      def crop$/;"	method	line:141	class:DeviseAvatarable.Uploader
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/engine.rb	/^module DeviseAvatarable$/;"	module	line:1
+Engine	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/engine.rb	/^  class Engine < ::Rails::Engine$/;"	class	line:2	class:DeviseAvatarable
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/helpers.rb	/^module DeviseAvatarable$/;"	module	line:1
+Helpers	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/helpers.rb	/^  module Helpers$/;"	module	line:2	class:DeviseAvatarable
+devise_avatar_for	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/helpers.rb	/^    def devise_avatar_for(*args)$/;"	method	line:13	class:DeviseAvatarable.Helpers
+devise_avatar_present?	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/helpers.rb	/^    def devise_avatar_present?(*args)$/;"	method	line:28	class:DeviseAvatarable.Helpers
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/form_helpers.rb	/^module DeviseAvatarable$/;"	module	line:1
+FormHelpers	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/form_helpers.rb	/^  module FormHelpers$/;"	module	line:2	class:DeviseAvatarable
+avatar_field	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/form_helpers.rb	/^    def avatar_field(attribute, *args)$/;"	method	line:11	class:DeviseAvatarable.FormHelpers
+ActionDispatch	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/routes.rb	/^module ActionDispatch::Routing$/;"	module	line:1
+Mapper	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/routes.rb	/^  class Mapper$/;"	class	line:2	class:ActionDispatch
+devise_avatar	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/routes.rb	/^      def devise_avatar(mapping, controllers)$/;"	method	line:4	class:ActionDispatch.Mapper
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^module DeviseAvatarable$/;"	module	line:1
+AvatarDefaults	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^  module AvatarDefaults$/;"	module	line:2	class:DeviseAvatarable
+limit_to	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^    def self.limit_to$/;"	singleton method	line:3	class:DeviseAvatarable.AvatarDefaults
+convert_to	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^    def self.convert_to$/;"	singleton method	line:7	class:DeviseAvatarable.AvatarDefaults
+editor_size	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^    def self.editor_size$/;"	singleton method	line:11	class:DeviseAvatarable.AvatarDefaults
+version	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^    def self.version(size)$/;"	singleton method	line:15	class:DeviseAvatarable.AvatarDefaults
+aspect_ratio	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/avatar_defaults.rb	/^    def self.aspect_ratio(avatar_name, versions)$/;"	singleton method	line:20	class:DeviseAvatarable.AvatarDefaults
+Devise	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/devise.rb	/^module Devise$/;"	module	line:1
+avatar	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable/devise.rb	/^  def self.avatar(*args)$/;"	singleton method	line:28	class:Devise
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^module DeviseAvatarable$/;"	module	line:1
+Generators	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^  module Generators$/;"	module	line:2	class:DeviseAvatarable
+InstallGenerator	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^    class InstallGenerator < Rails::Generators::NamedBase$/;"	class	line:3	class:DeviseAvatarable.Generators
+add_module	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^      def add_module$/;"	method	line:11	class:DeviseAvatarable.Generators.InstallGenerator
+add_config_options_to_initializer	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^      def add_config_options_to_initializer$/;"	method	line:20	class:DeviseAvatarable.Generators.InstallGenerator
+require_javascripts	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^      def require_javascripts$/;"	method	line:53	class:DeviseAvatarable.Generators
+require_stylsheets	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^      def require_stylsheets$/;"	method	line:58	class:DeviseAvatarable.Generators
+detect_js_format	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^        def detect_js_format$/;"	method	line:66	class:DeviseAvatarable.Generators
+detect_css_format	/home/alex/Pessoais/devise_avatarable/lib/generators/devise_avatarable/install_generator.rb	/^        def detect_css_format$/;"	method	line:73	class:DeviseAvatarable.Generators
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/lib/devise_avatarable.rb	/^module DeviseAvatarable$/;"	module	line:8
+DeviseAvatarableTest	/home/alex/Pessoais/devise_avatarable/test/devise_avatarable_test.rb	/^class DeviseAvatarableTest < ActiveSupport::TestCase$/;"	class	line:3
+development	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^development:$/;"	function	line:6
+adapter	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  adapter: sqlite3$/;"	function	line:7
+database	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  database: db\/development.sqlite3$/;"	function	line:8
+pool	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  pool: 5$/;"	function	line:9
+timeout	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  timeout: 5000$/;"	function	line:10
+test	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^test:$/;"	function	line:15
+adapter	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  adapter: sqlite3$/;"	function	line:16
+database	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  database: db\/test.sqlite3$/;"	function	line:17
+pool	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  pool: 5$/;"	function	line:18
+timeout	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  timeout: 5000$/;"	function	line:19
+production	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^production:$/;"	function	line:21
+adapter	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  adapter: sqlite3$/;"	function	line:22
+database	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  database: db\/production.sqlite3$/;"	function	line:23
+pool	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  pool: 5$/;"	function	line:24
+timeout	/home/alex/Pessoais/devise_avatarable/test/dummy/config/database.yml	/^  timeout: 5000$/;"	function	line:25
+Dummy	/home/alex/Pessoais/devise_avatarable/test/dummy/config/application.rb	/^module Dummy$/;"	module	line:8
+Application	/home/alex/Pessoais/devise_avatarable/test/dummy/config/application.rb	/^  class Application < Rails::Application$/;"	class	line:9	class:Dummy
+en	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^en:$/;"	function	line:3
+devise	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^  devise:$/;"	function	line:4
+confirmations	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    confirmations:$/;"	function	line:5
+confirmed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      confirmed: "Your account was successfully confirmed."$/;"	function	line:6
+send_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."$/;"	function	line:7
+send_paranoid_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."$/;"	function	line:8
+failure	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    failure:$/;"	function	line:9
+already_authenticated	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      already_authenticated: "You are already signed in."$/;"	function	line:10
+inactive	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      inactive: "Your account is not activated yet."$/;"	function	line:11
+invalid	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      invalid: "Invalid email or password."$/;"	function	line:12
+locked	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      locked: "Your account is locked."$/;"	function	line:13
+last_attempt	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      last_attempt: "You have one more attempt before your account will be locked."$/;"	function	line:14
+not_found_in_database	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      not_found_in_database: "Invalid email or password."$/;"	function	line:15
+timeout	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      timeout: "Your session expired. Please sign in again to continue."$/;"	function	line:16
+unauthenticated	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      unauthenticated: "You need to sign in or sign up before continuing."$/;"	function	line:17
+unconfirmed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      unconfirmed: "You have to confirm your account before continuing."$/;"	function	line:18
+mailer	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    mailer:$/;"	function	line:19
+confirmation_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      confirmation_instructions:$/;"	function	line:20
+subject	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^        subject: "Confirmation instructions"$/;"	function	line:21
+reset_password_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      reset_password_instructions:$/;"	function	line:22
+subject	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^        subject: "Reset password instructions"$/;"	function	line:23
+unlock_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      unlock_instructions:$/;"	function	line:24
+subject	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^        subject: "Unlock Instructions"$/;"	function	line:25
+omniauth_callbacks	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    omniauth_callbacks:$/;"	function	line:26
+failure	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      failure: "Could not authenticate you from %{kind} because \\"%{reason}\\"."$/;"	function	line:27
+success	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      success: "Successfully authenticated from %{kind} account."$/;"	function	line:28
+passwords	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    passwords:$/;"	function	line:29
+no_token	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."$/;"	function	line:30
+send_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."$/;"	function	line:31
+send_paranoid_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."$/;"	function	line:32
+updated	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      updated: "Your password was changed successfully. You are now signed in."$/;"	function	line:33
+updated_not_active	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      updated_not_active: "Your password was changed successfully."$/;"	function	line:34
+registrations	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    registrations:$/;"	function	line:35
+destroyed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."$/;"	function	line:36
+signed_up	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_up: "Welcome! You have signed up successfully."$/;"	function	line:37
+signed_up_but_inactive	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."$/;"	function	line:38
+signed_up_but_locked	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."$/;"	function	line:39
+signed_up_but_unconfirmed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."$/;"	function	line:40
+update_needs_confirmation	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."$/;"	function	line:41
+updated	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      updated: "You updated your account successfully."$/;"	function	line:42
+sessions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    sessions:$/;"	function	line:43
+signed_in	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_in: "Signed in successfully."$/;"	function	line:44
+signed_out	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      signed_out: "Signed out successfully."$/;"	function	line:45
+unlocks	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    unlocks:$/;"	function	line:46
+send_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."$/;"	function	line:47
+send_paranoid_instructions	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."$/;"	function	line:48
+unlocked	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      unlocked: "Your account has been unlocked successfully. Please sign in to continue."$/;"	function	line:49
+errors	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^  errors:$/;"	function	line:50
+messages	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^    messages:$/;"	function	line:51
+already_confirmed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      already_confirmed: "was already confirmed, please try signing in"$/;"	function	line:52
+confirmation_period_expired	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"$/;"	function	line:53
+expired	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      expired: "has expired, please request a new one"$/;"	function	line:54
+not_found	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      not_found: "not found"$/;"	function	line:55
+not_locked	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      not_locked: "was not locked"$/;"	function	line:56
+not_saved	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^      not_saved:$/;"	function	line:57
+one	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^        one: "1 error prohibited this %{resource} from being saved:"$/;"	function	line:58
+other	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise.en.yml	/^        other: "%{count} errors prohibited this %{resource} from being saved:"$/;"	function	line:59
+en	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/en.yml	/^en:$/;"	function	line:22
+hello	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/en.yml	/^  hello: "Hello world"$/;"	function	line:23
+en	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^en:$/;"	function	line:1
+devise	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^  devise:$/;"	function	line:2
+avatars	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^    avatars:$/;"	function	line:3
+updated	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^      updated: "You updated your avatar successfully."$/;"	function	line:4
+removed	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^      removed: "Your avatar was removed successfully."$/;"	function	line:5
+editor	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^      editor:$/;"	function	line:6
+select_file	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        select_file: "Select file..."$/;"	function	line:7
+uploading	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        uploading: "Uploading..."$/;"	function	line:8
+remove	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        remove: "Remove %{attribute}"$/;"	function	line:9
+removing	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        removing: "Removing..."$/;"	function	line:10
+crop	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        crop: "Crop"$/;"	function	line:11
+cropping	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        cropping: "Cropping..."$/;"	function	line:12
+errors	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^      errors:$/;"	function	line:13
+server_error	/home/alex/Pessoais/devise_avatarable/test/dummy/config/locales/devise_avatarable.en.yml	/^        server_error: "Server is having hiccups. Please try again later."$/;"	function	line:14
+html	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^<html>$/;"	function	line:2
+head	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^<head>$/;"	function	line:3
+title	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^  <title>We're sorry, but something went wrong (500)<\/title>$/;"	function	line:4
+style	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^  <style>$/;"	function	line:5
+body	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^<body>$/;"	function	line:50
+div	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^  <div class="dialog">$/;"	function	line:52
+h	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^    <h1>We're sorry, but something went wrong.<\/h1>$/;"	function	line:53
+p	/home/alex/Pessoais/devise_avatarable/test/dummy/public/500.html	/^  <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:55
+html	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^<html>$/;"	function	line:2
+head	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^<head>$/;"	function	line:3
+title	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^  <title>The change you wanted was rejected (422)<\/title>$/;"	function	line:4
+style	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^  <style>$/;"	function	line:5
+body	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^<body>$/;"	function	line:50
+div	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^  <div class="dialog">$/;"	function	line:52
+h	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^    <h1>The change you wanted was rejected.<\/h1>$/;"	function	line:53
+p	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^    <p>Maybe you tried to change something you didn't have access to.<\/p>$/;"	function	line:54
+p	/home/alex/Pessoais/devise_avatarable/test/dummy/public/422.html	/^  <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:56
+html	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^<html>$/;"	function	line:2
+head	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^<head>$/;"	function	line:3
+title	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^  <title>The page you were looking for doesn't exist (404)<\/title>$/;"	function	line:4
+style	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^  <style>$/;"	function	line:5
+body	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^<body>$/;"	function	line:50
+div	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^  <div class="dialog">$/;"	function	line:52
+h	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^    <h1>The page you were looking for doesn't exist.<\/h1>$/;"	function	line:53
+p	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^    <p>You may have mistyped the address or the page may have moved.<\/p>$/;"	function	line:54
+p	/home/alex/Pessoais/devise_avatarable/test/dummy/public/404.html	/^  <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:56
+one	/home/alex/Pessoais/devise_avatarable/test/dummy/test/fixtures/users.yml	/^one: {}$/;"	function	line:7
+two	/home/alex/Pessoais/devise_avatarable/test/dummy/test/fixtures/users.yml	/^two: {}$/;"	function	line:10
+UserTest	/home/alex/Pessoais/devise_avatarable/test/dummy/test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	class	line:3
+DeviseCreateUsers	/home/alex/Pessoais/devise_avatarable/test/dummy/db/migrate/20140308144001_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	class	line:1
+change	/home/alex/Pessoais/devise_avatarable/test/dummy/db/migrate/20140308144001_devise_create_users.rb	/^  def change$/;"	method	line:2	class:DeviseCreateUsers
+AddAvatarToUsers	/home/alex/Pessoais/devise_avatarable/test/dummy/db/migrate/20140308145643_add_avatar_to_users.rb	/^class AddAvatarToUsers < ActiveRecord::Migration$/;"	class	line:1
+change	/home/alex/Pessoais/devise_avatarable/test/dummy/db/migrate/20140308145643_add_avatar_to_users.rb	/^  def change$/;"	method	line:2	class:AddAvatarToUsers
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/home/alex/Pessoais/devise_avatarable/test/dummy/app/assets/stylesheets/application.css	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
+ApplicationController	/home/alex/Pessoais/devise_avatarable/test/dummy/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+User	/home/alex/Pessoais/devise_avatarable/test/dummy/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
+NavigationTest	/home/alex/Pessoais/devise_avatarable/test/integration/navigation_test.rb	/^class NavigationTest < ActionDispatch::IntegrationTest$/;"	class	line:3
+DeviseAvatarable	/home/alex/Pessoais/devise_avatarable/README.md	/^# DeviseAvatarable$/;"	function	line:1
+Installation	/home/alex/Pessoais/devise_avatarable/README.md	/^## Installation$/;"	function	line:14
+Add Avatar(s) to your Devise model	/home/alex/Pessoais/devise_avatarable/README.md	/^## Add Avatar(s) to your Devise model$/;"	function	line:37
+config.avatar :avatar	/home/alex/Pessoais/devise_avatarable/README.md	/^# config.avatar :avatar$/;"	function	line:54
+Edit avatars	/home/alex/Pessoais/devise_avatarable/README.md	/^## Edit avatars$/;"	function	line:64
+The avatar editor widget	/home/alex/Pessoais/devise_avatarable/README.md	/^### The avatar editor widget$/;"	function	line:74
+Custom Events	/home/alex/Pessoais/devise_avatarable/README.md	/^#### Custom Events$/;"	function	line:107
+Flash messages	/home/alex/Pessoais/devise_avatarable/README.md	/^#### Flash messages$/;"	function	line:119
+Display avatars	/home/alex/Pessoais/devise_avatarable/README.md	/^## Display avatars$/;"	function	line:152
+Configure your avatar(s)	/home/alex/Pessoais/devise_avatarable/README.md	/^## Configure your avatar(s)$/;"	function	line:176
+More configuration options	/home/alex/Pessoais/devise_avatarable/README.md	/^### More configuration options$/;"	function	line:205
+Use your own uploader	/home/alex/Pessoais/devise_avatarable/README.md	/^### Use your own uploader$/;"	function	line:243
+Configur avatar storgae	/home/alex/Pessoais/devise_avatarable/README.md	/^### Configur avatar storgae$/;"	function	line:254
+Other storage provider examples:	/home/alex/Pessoais/devise_avatarable/README.md	/^#### Other storage provider examples:$/;"	function	line:290
+Generating default images	/home/alex/Pessoais/devise_avatarable/README.md	/^## Generating default images$/;"	function	line:318
+Translations	/home/alex/Pessoais/devise_avatarable/README.md	/^## Translations$/;"	function	line:352
+TODOs	/home/alex/Pessoais/devise_avatarable/README.md	/^## TODOs$/;"	function	line:358
+TODO MAYBE	/home/alex/Pessoais/devise_avatarable/README.md	/^### TODO MAYBE$/;"	function	line:374
+TODO FEATURES	/home/alex/Pessoais/devise_avatarable/README.md	/^### TODO FEATURES$/;"	function	line:379
+Licence	/home/alex/Pessoais/devise_avatarable/README.md	/^## Licence$/;"	function	line:385
+Cropper	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^  DeviseAvatarable.Cropper = function(element, options) {$/;"	function	line:8
+Cropper	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^window.DeviseAvatarable || (window.DeviseAvatarable = {});$/;"	class	line:5
+DeviseAvatarable.Cropper	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^  };$/;"	class	line:22
+DeviseAvatarable.Cropper.defaults	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^  DeviseAvatarable.Cropper.prototype = {$/;"	property	line:24
+update	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^    update: function(image) {$/;"	function	line:39
+_attachCropper	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^    _attachCropper: function() {$/;"	function	line:46
+onSelect	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^        onSelect: function(coords) { that._saveCoords(coords); },$/;"	function	line:51
+onChange	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^        onChange: function(coords) { that._saveCoords(coords); }$/;"	function	line:52
+_saveCoords	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^    _saveCoords: function(coords) {$/;"	function	line:56
+_destroyCropper	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/cropper.js	/^    _destroyCropper: function() {$/;"	function	line:67
+Editor	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^  DeviseAvatarable.Editor = function(element, options) {$/;"	function	line:10
+Editor	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^window.DeviseAvatarable || (window.DeviseAvatarable = {});$/;"	class	line:7
+DeviseAvatarable.Editor	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^  };$/;"	class	line:35
+DeviseAvatarable.Editor.defaults	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^  DeviseAvatarable.Editor.prototype = {$/;"	property	line:37
+_uploadBtn	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _uploadBtn: function() {$/;"	function	line:44
+_disableUploadBtn	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _disableUploadBtn: function() {$/;"	function	line:48
+_enableUploadBtn	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _enableUploadBtn: function() {$/;"	function	line:55
+upload	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    upload: function(image, removed) {$/;"	function	line:65
+crop	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    crop: function(image) {$/;"	function	line:96
+_remove	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _remove: function(image) {$/;"	function	line:123
+_uploadFile	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _uploadFile: function() {$/;"	function	line:130
+_createCrop	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _createCrop: function(coords) {$/;"	function	line:136
+_submitForm	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _submitForm: function() {$/;"	function	line:145
+_clearInputs	/home/alex/Pessoais/devise_avatarable/app/assets/javascripts/devise_avatarable/editor.js	/^    _clearInputs: function() {$/;"	function	line:177
+.devise-avatarable-editor	/home/alex/Pessoais/devise_avatarable/app/assets/stylesheets/devise_avatarable.css.scss	/^.devise-avatarable-editor {$/;"	function	line:5
+.devise-avatarable-actions	/home/alex/Pessoais/devise_avatarable/app/assets/stylesheets/devise_avatarable.css.scss	/^  .devise-avatarable-actions {$/;"	function	line:6
+.btn-select-file	/home/alex/Pessoais/devise_avatarable/app/assets/stylesheets/devise_avatarable.css.scss	/^  .btn-select-file {$/;"	function	line:10
+input[type=file]	/home/alex/Pessoais/devise_avatarable/app/assets/stylesheets/devise_avatarable.css.scss	/^    input[type=file] {$/;"	function	line:13
+Devise	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^class Devise::AvatarsController < DeviseController$/;"	class	line:1
+edit	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^  def edit$/;"	method	line:6	class:Devise
+update	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^  def update$/;"	method	line:10	class:Devise
+after_update_path_for	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^    def after_update_path_for(resource)$/;"	method	line:30	class:Devise
+authenticate_scope!	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^    def authenticate_scope!$/;"	method	line:35	class:Devise
+attribute	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^    def attribute$/;"	method	line:46	class:Devise
+attribute_params	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^    def attribute_params$/;"	method	line:53	class:Devise
+remove?	/home/alex/Pessoais/devise_avatarable/app/controllers/devise/avatars_controller.rb	/^    def remove?$/;"	method	line:58	class:Devise
