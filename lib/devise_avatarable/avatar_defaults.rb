@@ -15,11 +15,6 @@ module DeviseAvatarable
     def self.version(size)
       { default: size || [200,200] }
     end
-
-    def default_url(*args)
-      ActionController::Base.helpers.asset_path("images/" + [version_name, "user_avatar_default.jpg"].compact.join('_'))
-    end
-
     # Returns the aspect ratio to use in the crop tool.
     def self.aspect_ratio(avatar_name, versions)
       aspect = nil

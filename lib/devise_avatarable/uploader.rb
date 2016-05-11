@@ -72,9 +72,10 @@ module DeviseAvatarable
     end
 
     # Returns a default URL if no file was uploaded.
-    # To create default images check the README under "Generating default images".
-    def default_url
-      ActionController::Base.helpers.asset_path(default_name(version_name))
+    # To create default images check the README under "Generating default images".    
+
+    def default_url(*args)
+      ActionController::Base.helpers.asset_path("images/" + [version_name, "user_avatar_default.jpg"].compact.join('_'))
     end
 
     # Returns the name of the default image.
