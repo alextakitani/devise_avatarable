@@ -20,7 +20,7 @@ class Devise::AvatarsController < DeviseController
         respond_with resource, location: after_update_path_for(resource)
       end
     else
-      Rails.logger.error resource.errors
+      Rails.logger.error resource.errors.full_messages.join("\n")
       respond_with_navigational(resource){ render :edit }
     end
   end
